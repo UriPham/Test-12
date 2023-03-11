@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 60px;
+}
+
+.range {
+    height: 60px;
+    width: 600px;
+    border-radius: 30px;
+    cursor: pointer;
+    overflow: hidden;;
+}
+
+.process {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+    background: linear-gradient(to right, rgb(216, 60, 60), rgb(171, 155, 7));
+    font-weight: bold;
+}
+
+
